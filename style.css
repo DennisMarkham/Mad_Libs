@@ -1,0 +1,23 @@
+ form 
+  {
+    border-style: solid;
+    padding: 20px;
+    width: 20%;
+  }
+
+  input[type=text]
+  {
+    width: 90px;
+  }
+
+  input 
+  {
+    margin: 5px;
+  }
+
+  p
+  {
+    width: 30%;
+    float:left;
+    display:block;
+  }

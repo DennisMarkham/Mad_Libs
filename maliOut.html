@@ -4,25 +4,9 @@
 <!-- Latest compiled and minified CSS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<style>
-  form 
-  {
-    border-style: solid;
-    padding: 20px;
-    width: 20%;
-  }
+<link rel="stylesheet" type="text/css" href="style.css">
 
-  input[type=text]
-  {
-    width: 90px;
-  }
-
-  input 
-  {
-    margin: 5px;
-  }
-</style>
-
+<title> Mansa Musa Results </title>
   </head>
 
 <body onload = "transMadLibsDistribute()">
@@ -35,19 +19,7 @@
 
 McDonald's is the world's largest restaurant chain by revenue, serving over 69 million customers daily in over 100 countries across [NUMBER] outlets as of 2018. Although McDonald's is best known for its hamburgers, cheeseburgers and french fries, they also feature [ANIMAL] products, breakfast items, [ADJECTIVE] drinks, milkshakes, wraps, and desserts. In response to changing consumer tastes and a negative backlash because of the [ADJECTIVE]ness of their food, the company has added to its menu salads, fish, smoothies, and fruit. The McDonald's Corporation revenues come from the rent, royalties, and fees paid by the franchisees, as well as sales in company-operated restaurants. According to two reports published in 2018, McDonald's is the world's forth-largest private employer with 1.7 million employees (behind Walmart with 2.3 million employees).</p> -->
 
-<script>
-  function transMadLibsDistribute(){
-  for (x = 1; x < 9; x++) { 
-    var input = localStorage.getItem("localInput" + x);
-
-      // console.log(localStorage.getItem("localInput" + x));
-
-      console.log(input);
-
-      $("#" + x + "o").text(input);
-    }
-  }
-
+<script src = "madLibs.js">
   </script>
 <!-- <script src="madLibs.js"></script> -->
 </body>
