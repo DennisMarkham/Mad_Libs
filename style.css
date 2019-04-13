@@ -1,3 +1,8 @@
+ body
+ {
+  background: url(paper.png); 
+ }
+
  form 
   {
     border-style: solid;
@@ -19,6 +24,7 @@
   {
     margin: 20px;
     width: 40%;
+    font-size:18px;
     
   }
 
